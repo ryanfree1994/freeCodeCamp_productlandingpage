@@ -65,7 +65,8 @@ h1{
   width: 10em;
   margin: 0.5em;
   text-align: center;
-  background: #FFFFFF;
+  background: #CFB897;
+  color: white;
 }
 
 .feature-box-title{
@@ -79,7 +80,8 @@ h1{
   margin: 0.5em;
   width: 8em;
   text-align: center;
-  background: #FFFFFF;
+  background: #4A7166;
+  color: white;
 }
 
 #demo-section {
