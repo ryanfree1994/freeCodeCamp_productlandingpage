@@ -1,0 +1,102 @@
+html{
+  padding: 1em;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+  background: #FFBBBB;
+}
+
+#header-img{
+  float: left;
+  max-width: 20%;
+}
+
+#header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background: #FFBBBB;
+}
+
+header nav{
+  padding-bottom: 0.2em;
+}
+
+header nav li{
+  display: inline;
+  padding: 0.5em;
+}
+header nav li a{
+  text-decoration: none;
+  color: black;
+}
+
+h1{
+  text-align: center;
+  padding: 2em;
+}
+
+@media screen and (max-width: 767px){
+  h1{
+    padding-top: 3em;
+  }
+}
+
+#features-section, #pricing-section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5em 0em;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.feature-box{
+  border: 2px black solid;
+  align-self: center;
+  padding: 3em;
+  width: 10em;
+  margin: 0.5em;
+  text-align: center;
+  background: #FFFFFF;
+}
+
+.feature-box-title{
+  font-size: 1.5em;
+}
+
+.pricing-box{
+  border: 2px black solid;
+  align-self: center;
+  padding: 3em;
+  margin: 0.5em;
+  width: 8em;
+  text-align: center;
+  background: #FFFFFF;
+}
+
+#demo-section {
+  display: flex;
+  justify-content: center;
+  padding: 5em 0em;
+}
+
+#demo-section > iframe {
+  max-width: 35rem;
+  width: 100%;
+}
+
+form, input{
+  font-family: inherit;
+}
+
+form{
+  text-align: center;
+}
